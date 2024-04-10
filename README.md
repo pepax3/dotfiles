@@ -1,7 +1,7 @@
-Dotfiles Installation Guide
+# Dotfiles Installation Guide
 This guide outlines the simple steps to install your dotfiles from a GitHub repository. Dotfiles are configuration files that personalize your system and applications.
 
-Prerequisites
+## Prerequisites
 Before proceeding, ensure you have the following installed on your system:
 
 Git: Version control system for tracking changes to your dotfiles.
@@ -36,3 +36,7 @@ Feel free to customize the dotfiles according to your preferences. You can edit 
 
 Contribution
 If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
+
+## Showcase
+
+![Showcase](https://github.com/pepax3/dotfiles/blob/main/showcase.png?raw=true)
