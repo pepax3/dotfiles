@@ -9,31 +9,26 @@ Installation Steps
 Install Git: If Git is not already installed on your system, you can do so using your package manager. For example, on systems using Pacman package manager:
 
 ```bash
-Copy code
 sudo pacman -S git
 ```
 Clone Dotfiles Repository: Clone your dotfiles repository from GitHub. Replace <repository-url> with the URL of your dotfiles repository.
 
 ```bash
-Copy code
 git clone https://github.com/pepax3/dotfiles
 ```
 Navigate to Dotfiles Directory: Move into the dotfiles directory.
 
 ```bash
-Copy code
 cd dotfiles
 ```
 Make Installer Executable: Ensure the installer script (installer.sh) is executable.
 
 ```bash
-Copy code
 chmod +x installer.sh
 ```
 Run Installer: Execute the installer script to apply your configurations.
 
 ```bash
-Copy code
 ./installer.sh
 ```
 Customization
