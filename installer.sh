@@ -29,7 +29,7 @@ mkdir -p ~/.config/dunst
 mv dunstrc ~/.config/dunst
 
 # Move .xinitrc to home directory
-mv .xinitrc ~/
+mv .xinitrc ~/.xinitrc
 
 # Move to /opt directory
 cd /opt
@@ -52,8 +52,8 @@ yay -Sy
 # Install additional packages using yay
 yay -S ttf-iosevka ttf-iosevka-term discord betterdiscord-installer brave-bin spotify sptlrx
 
-# Move back to dwm-berserk-rice directory
-cd ~/dwm-berserk-rice
+# Move back to dotfiles directory
+cd ~/dotfiles
 
 # Create directory for BetterDiscord themes if it doesn't exist
 mkdir -p ~/.config/BetterDiscord/themes
