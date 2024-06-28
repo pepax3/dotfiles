@@ -71,5 +71,6 @@ sudo ./strap.sh
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+rm ~/dotfiles/showcase.png README.md
 # End of script
 
