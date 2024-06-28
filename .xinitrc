@@ -1,5 +1,5 @@
 flameshot &
-feh --bg-scale ~/berserk-rice/background.png &
+feh --bg-scale ~/dotfiles/background.png &
 xrandr --output eDP-1 --brightness 0.6 &
 dunst &
 slstatus &
