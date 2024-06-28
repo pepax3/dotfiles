@@ -71,6 +71,8 @@ sudo ./strap.sh
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-rm ~/dotfiles/showcase.png README.md
+#Cleaning up trash files
+
+rm ~/dotfiles/showcase.png README.md instaler.sh strap.sh
 # End of script
 
