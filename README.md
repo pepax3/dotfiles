@@ -37,6 +37,11 @@ Feel free to customize the dotfiles according to your preferences. You can edit 
 Contribution
 If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
 
+## Wallpaper has been changed and showcase isn't updated
+I found new wallpaper here:
+
+https://gruvbox-wallpapers.pages.dev/
+
 ## Showcase
 
 ![Showcase](https://github.com/pepax3/dotfiles/blob/main/showcase.png?raw=true)
