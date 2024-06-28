@@ -69,7 +69,14 @@ curl -O https://blackarch.org/strap.sh
 chmod +x strap.sh
 sudo ./strap.sh
 
+#installing ohmyzsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+#Neofetch config change
+
+cd ~/dotfiles
+rm ~/.config/neofetch/config.conf
+mv neofetch/config.conf ~/.config/neofetch
 
 #Cleaning up trash files
 
