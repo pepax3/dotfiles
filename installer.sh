@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install packages using pacman
-sudo pacman -S xorg-server xorg-xinit libx11 libxinerama libxft webkit2gtk git flameshot feh xorg-xrandr dunst ttf-dejavu-nerd noto-fonts-emoji zsh
+sudo pacman -S xorg-server xorg-xinit libx11 libxinerama libxft webkit2gtk git flameshot feh xorg-xrandr dunst ttf-dejavu-nerd noto-fonts-emoji zsh neofetch
 
 # Move to dwm directory and install
 cd dwm 
