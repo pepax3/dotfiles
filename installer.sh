@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install packages using pacman
-sudo pacman -S xorg-server xorg-xinit libx11 libxinerama libxft webkit2gtk git flameshot feh xorg-xrandr dunst noto-fonts-emoji
+sudo pacman -S xorg-server xorg-xinit libx11 libxinerama libxft webkit2gtk git flameshot feh xorg-xrandr dunst ttf-dejavu-nerd noto-fonts-emoji zsh
 
 # Move to dwm directory and install
 cd dwm 
@@ -68,6 +68,8 @@ cd ~/Downloads
 curl -O https://blackarch.org/strap.sh
 chmod +x strap.sh
 sudo ./strap.sh
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # End of script
 
