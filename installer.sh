@@ -76,7 +76,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 cd ~/dotfiles
 rm ~/.config/neofetch/config.conf
-mv neofetch/config.conf ~/.config/neofetch
+mv config.conf ~/.config/neofetch
 
 #Cleaning up trash files
 
